@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(221, 219, 221);
+}
+article section div {
+    background-color:rgb(0, 38, 255);
+    width: 75%;
+    float: left;
+}
+aside div{
+    width: 24%;
+    float: left;
+    background-color: #bbb8b8;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+article section div img {
+    width: 49%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #000000;
+  background-color: #2c5aff;
+}
+
+li {
+  float: left;
+  font-size: 24px;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #bbb8b8;
+}
+
+li a.active {
+  color: white;
+  background-color: #0044ff;
+}
+
+p {
+     font-size: 24px;
+}
